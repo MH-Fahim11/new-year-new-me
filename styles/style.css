@@ -1,7 +1,42 @@
+/* All Page */
 *{
     margin: 0px;
+    font-family: 'Work Sans';
 }
+/* Header Section */
 header{
     background-image: url(../images/banner/banner2.png);
-    height: 700px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-container{
+    text-align: end;
+    padding-top: 170px;
+    padding-left: 650px;
+    padding-right: 150px;
+}
+.header-container h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #151414;
+    line-height: 70px;
+    padding-bottom: 20px;
+}
+.header-container p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    padding-bottom: 25px;
+}
+/* Button */
+.orange-btn{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #F15B22;
+    font-weight: 550;
+    font-size: 18px;
+    color: #FFFFFF;
 }
