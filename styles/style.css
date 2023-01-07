@@ -16,7 +16,7 @@ header{
     padding-left: 650px;
     padding-right: 150px;
 }
-.header-container h1{
+.head-title{
     font-weight: 700;
     font-size: 60px;
     color: #151414;
@@ -39,4 +39,44 @@ header{
     font-weight: 550;
     font-size: 18px;
     color: #FFFFFF;
+}
+/* Main part of website */
+.my-failures{
+    display: flex;
+    align-items: center;
+    padding: 120px 200px 0px 170px;
+}
+.my-failures img{
+    height: 560px;
+}
+.mistake-sec{
+    padding-left:50px ;
+    padding-top: 100px;
+}
+.main-part-header{
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+    line-height: 40px;
+    padding-right: 20px;
+}
+.main-part-peragraph{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #444343;
+    line-height: 20px;
+}
+.list-of-failures{
+    font-weight: 300;
+    font-size: 14px;
+   
+}
+.list-of-failures li{
+    padding-bottom: 10px;
+}
+
+.my-plans-container{
+    padding: 120px 200px;
 }
