@@ -23,6 +23,7 @@ header{
     line-height: 70px;
     padding-bottom: 20px;
 }
+
 .header-container p{
     font-weight: 400;
     font-size: 16px;
@@ -59,16 +60,16 @@ header{
     color: #151414;
     line-height: 40px;
     padding-right: 20px;
+    padding-bottom: 20px;
 }
 .main-part-paragraph{
-    padding-top: 20px ;
-    padding-bottom: 20px;
     font-weight: 300;
     font-size: 14px;
     color: #444343;
     line-height: 20px;
 }
 .list-of-failures{
+    padding-top: 20px;
     font-weight: 300;
     font-size: 14px;
    
@@ -76,7 +77,37 @@ header{
 .list-of-failures li{
     padding-bottom: 10px;
 }
-
+/* bonus */
+.bonus{
+    height: 550px;
+    margin: 50px 150px 0px 150px;
+    background-image: linear-gradient(90deg, #F15B22 10%, rgba(241, 91, 34, 0) 110%), url(../images/inspiration-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+}
+.bonus-container{
+    padding-top: 180px;
+    padding-left: 80px;
+}
+.bonus-header{
+   color: #F3F3F3;
+   padding-bottom: 30px;
+   font-size: 35px;
+   font-weight: 500;
+}
+.bonus-paragraph{
+    color: #F3F3F3;
+    padding-right: 340px;
+    font-size: 18px;
+   font-weight: 300;
+}
+.Writer{
+    font-size: 18px;
+   font-weight: 400;
+}
+/* My plan */
 .my-plans-container{
     padding: 120px 200px;
     text-align: center;
@@ -121,7 +152,7 @@ header{
 .banner-contante{
     padding: 50px 350px 20px 50px;
 }
-.banner-hrader{
+.banner-header{
     padding-bottom: 10px;
     font-style: normal;
     font-weight: 600;
