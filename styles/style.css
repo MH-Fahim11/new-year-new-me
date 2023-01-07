@@ -128,7 +128,7 @@ header{
     font-size: 35px;
     color: #FFFFFF;
 }
-.call-now-btn{
+.primary-btn{
     width: 100px;
     height: 40px;
     font-weight: 600;
@@ -137,4 +137,56 @@ header{
     color: #F15B22;
     border: none;
     border-radius: 5px;
+}
+/* Footer */
+footer{
+    margin-top: 100px;
+    height: 500px;
+    background: #151414;
+    color: #FFFFFF;
+}
+.footer-container{
+    display: flex;
+    padding-right: 250px;
+}
+.footer-future{
+    margin-top: 150px;
+    margin-left: 150px;
+    padding-right: 250px;
+}
+.footer-header{
+    font-weight: 600;
+    font-size: 35px;
+    color: #F8F8F8;
+    padding-bottom: 20px;
+}
+.footer-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-num-email{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+}
+.social img{
+    height: 40px;
+    padding: 5px;
+}
+.con-from{
+    margin-top: 150px;
+}
+.form-header{
+    font-weight: 300;
+    font-size: 35px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 42px;
+    background: #151414;
+    border-radius: 5px;
+    border: 1px solid #F3F3F3;
 }
