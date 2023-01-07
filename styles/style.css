@@ -60,7 +60,7 @@ header{
     line-height: 40px;
     padding-right: 20px;
 }
-.main-part-peragraph{
+.main-part-paragraph{
     padding-top: 20px ;
     padding-bottom: 20px;
     font-weight: 300;
@@ -79,4 +79,32 @@ header{
 
 .my-plans-container{
     padding: 120px 200px;
+    text-align: center;
+    display: block;
+}
+.my-plans-container h3{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+
+}
+.my-plans{
+    display: flex;
+    justify-content: space-between;
+}
+.my-plans img{
+    height: 70px;
+    padding-bottom: 30px;
+}
+.my-plans h4{
+    font-weight: 800;
+    font-size: 20px;
+    color: #151414;
+}
+.my-plans p{
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #737272;
 }
